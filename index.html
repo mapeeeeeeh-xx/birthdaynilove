@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balemtayms</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #ece0d0; /* Nude background */
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .imgs {
+        display: flex;
+        justify-content: space-between; /* Distribute items evenly */
+        margin-bottom: 20px; /* Add some space between images and button */
+      }
+      .image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .image-wrapper img {
+        max-width: 70%; /* Ensure images don't exceed their container width */
+        max-height: 600px; /* Set a maximum height to maintain aspect ratio */
+      }
+      .button {
+        background-color: #8c746a; /* Masculine brown */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: #634b42; /* Darker brown on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple lang ito sana magustuhan mo. Pareho tayo nakadila kasi ldr tayo eto nalang muna couple pic natin LOL :>></h1>
+      <div class="imgs">
+        <div class="image-wrapper">
+          <img src="love.jpg" alt="Cute Picture 1" />
+        </div>
+        <div class="image-wrapper">
+          <img src="me.jpg" alt="Cute Picture 1" />
+        </div>
+      </div>
+
+      <br />
+      <button class="button" onclick="goToAnotherPage()">Pindutin mo Love</button>
+    </div>
+
+    <script>
+      function goToAnotherPage() {
+        window.location.href = "main.html";
+      }
+    </script>
+  </body>
+</html>
